@@ -3,7 +3,7 @@
 ### Visualizations  
 
 #### Economic and Market Indicators  
-- **Bitcoin Ownership by Private Companies**  
+- **Bitcoin Ownership by Companies**  
   - Overview of public companies that hold Bitcoin, their industry categorization, and relative size.  
 - **Bitcoin Transaction Volume Over Time**  
   - A dynamic visualization of transaction volumes, providing insights into network activity.  
@@ -27,7 +27,7 @@
 #### Adoption and Growth Metrics  
 - **Bitcoin Wallets Growth Over Time**  
   - Growth trends in Bitcoin wallet creation and active addresses.  
-- **Layer 2 Solutions Impact**  
+- **Developer Activity and VC funding**  
   - Adoption metrics and effects of solutions like the Lightning Network.  
 
 #### Environmental Impact  
