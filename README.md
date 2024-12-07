@@ -1,6 +1,6 @@
-#Making Bitcoin Beautiful one chart at a time
+### Making Bitcoin Beautiful one chart at a time
 
-### Visualizations  
+
 
 #### Economic and Market Indicators  
 - **Bitcoin Ownership by Companies**  
