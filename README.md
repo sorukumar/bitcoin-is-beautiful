@@ -1,4 +1,4 @@
-# BitcoinisBeautiful: Make Bitcoin Beautiful one chart at a time.
+#Making Bitcoin Beautiful one chart at a time
 
 ### Visualizations  
 
