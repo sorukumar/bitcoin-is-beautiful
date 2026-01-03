@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viz Template</title>
+    <link rel="stylesheet" href="../../common/css/master.css">
+    <script src="../../common/js/echarts.min.js"></script>
+</head>
+<body>
+    <h1>Visualization Template</h1>
+    <div id="chart" class="chart-container"></div>
+    <script>
+        var chart = echarts.init(document.getElementById('chart'));
+        var option = {
+            title: { text: 'Sample Chart' },
+            xAxis: { type: 'category', data: ['A', 'B', 'C'] },
+            yAxis: { type: 'value' },
+            series: [{ data: [1, 2, 3], type: 'bar' }]
+        };
+        chart.setOption(option);
+    </script>
+</body>
+</html>
