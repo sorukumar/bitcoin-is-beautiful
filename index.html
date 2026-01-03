@@ -6,97 +6,91 @@
   <meta name="author" content="sorukumar">
   <meta name="description" content="Making Bitcoin Beautiful One Chart a Time.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bitcoin Data Labs styles -->
+  <link rel="stylesheet" href="https://sorukumar.github.io/Bitcoin-Data-Labs/styles/styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-2.0.0/datatables.min.css" rel="stylesheet">
   <link rel="stylesheet" href="common/css/index.css">
- <style>
-    body {
-      text-align: center;
-      font-family: Arial, sans-serif;
-    }
-
-    h2 {
-      margin-bottom: 10px;
-    }
-
-    table {
-      width: 80%;
-      margin: 40px auto; /* Increased gap before and after the table */
-      border-collapse: collapse;
-    }
-
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-
-    th {
-      background-color: #f2f2f2;
-    }
-
-    p {
-      text-align: left;
-      margin: 20px auto;
-      max-width: 800px;
-    }
-
-    ol {
-      text-align: left;
-      margin: 20px auto;
-      max-width: 800px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-  </style></head>
+</head>
   
 
 
 <body>
 
-  <nav class="navbar bg-body-tertiary">
-    <div class="container">
-      <h1 class="navbar-brand mb-0">
-        <img src="https://avatars.githubusercontent.com/u/113713822?s=200" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
-        Bitcoin is Beautiful
-      </h1>
-      <a class="nav-link" href="https://github.com/sorukumar/BitcoinisBeautiful">Dataset</a>
+  <!-- Bitcoin Data Labs Header -->
+  <div id="header"></div>
+  
+  <div class="main-content">
+    <!-- Hero Section -->
+    <div class="hero-search-section">
+      <div class="search-box-wrapper">
+        <h1>Making Bitcoin Beautiful</h1>
+        <p class="search-description">The goal is to make Bitcoin more accessible through visualization and beautiful charts.</p>
+      </div>
+      <!-- Feature Links Row -->
+      <div class="feature-links-row">
+        <a href="visualizations/public-company-bitcoin/index.html" class="feature-link">
+          <span class="feature-icon"><i class="fas fa-building"></i></span>
+          <span class="feature-content">
+            <span class="feature-title">Public Companies That Hold Bitcoin</span>
+            <span class="feature-desc">Info on all the public companies who hold Bitcoin. How big are those companies, and what industry they are in?</span>
+          </span>
+        </a>
+        <a href="#" class="feature-link disabled" onclick="event.preventDefault();">
+          <span class="feature-icon"><i class="fas fa-globe"></i></span>
+          <span class="feature-content">
+            <span class="feature-title">Government Debt & Debt by GDP by Country</span>
+            <span class="feature-desc">Visualization of government debt and debt-to-GDP ratios across countries.</span>
+          </span>
+        </a>
+        <a href="#" class="feature-link disabled" onclick="event.preventDefault();">
+          <span class="feature-icon"><i class="fas fa-search"></i></span>
+          <span class="feature-content">
+            <span class="feature-title">Bitcoin Search Interest by Country</span>
+            <span class="feature-desc">Analysis of Bitcoin search trends and interest levels by country.</span>
+          </span>
+        </a>
+        <a href="#" class="feature-link disabled" onclick="event.preventDefault();">
+          <span class="feature-icon"><i class="fas fa-chart-line"></i></span>
+          <span class="feature-content">
+            <span class="feature-title">Bitcoin Interest Index by Country</span>
+            <span class="feature-desc">The proxy for interest is: search, mining activity, Bitcoin start-up activity, and merchants who accept Bitcoin/LN.</span>
+          </span>
+        </a>
+        <a href="https://sorukumar.github.io/ln-graph-viz/?file=data%2Fgall.json" class="feature-link" target="_blank" rel="noopener">
+          <span class="feature-icon"><i class="fas fa-project-diagram"></i></span>
+          <span class="feature-content">
+            <span class="feature-title">Lightning Network Graph Visualization</span>
+            <span class="feature-desc">Visualize the Lightning Network graph with interactive data</span>
+          </span>
+        </a>
+        <a href="https://sorukumar.github.io/btc-node-viz-3d/" class="feature-link" target="_blank" rel="noopener">
+          <span class="feature-icon"><i class="fas fa-cube"></i></span>
+          <span class="feature-content">
+            <span class="feature-title">Bitcoin Node Visualization 3D</span>
+            <span class="feature-desc">3D visualization of Bitcoin nodes and network</span>
+          </span>
+        </a>
+      </div>
     </div>
-  </nav>
+  </div>
   
-  <h2 style="margin-top: 20px;" >Making Bitcoin beautiful</h2>
+  <!-- Bitcoin Data Labs Footer -->
+  <div id="footer"></div>
 
-  <p  >The goal is to make Bitcoin more accessible through visualization and beautiful charts.
-  <table  >
-    <tr>
-     <th>What is it?</th>
-      <th>Link</th>
-    </tr>
-    <tr>
-      <td> Info on all the public companies who hold Bitcoin. How big are those companies, and what industry they are in? .</td>
-      <td><a href="visualizations/public-company-bitcoin/index.html" target="_blank">Public companies that hold Bitcoin</a></td>
-    </tr>
-   <tr>
-      <td> Government Debt & Debt by GDP by Country .</td>
-      <td><a href="#" onclick="event.preventDefault();" target="_blank">WIP</a></td>
-    </tr>
-   <tr>
-      <td> Bitcoin Search Interest by Country .</td>
-      <td><a href="#" onclick="event.preventDefault();" target="_blank">WIP</a></td>
-    </tr>
-      <tr>
-      <td> Bitcoin Interest Index by Country. The proxy for interest is: search, mining activity, Bitcoin start-up activity, and  merchants who accept Bitcoin/LN .</td>
-      <td><a href="#" onclick="event.preventDefault();" target="_blank">WIP</a></td>
-    </tr> 
-  </table>
-
-  
-
-  <ol>
-   
-  </ol>
+  <!-- Bitcoin Data Labs App Components -->
+  <script src="https://sorukumar.github.io/Bitcoin-Data-Labs/components/app-components.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      BitcoinLabsAppComponents.init({
+        isApp: true,
+        appName: "bitcoin-is-beautiful",
+        appHomeUrl: "https://sorukumar.github.io/bitcoin-is-beautiful/"
+      });
+    });
+  </script>
 
 </body>
 
