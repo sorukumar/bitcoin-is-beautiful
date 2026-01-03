@@ -1,0 +1,30 @@
+/* CSS for the homepage index.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.viz-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.viz-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.viz-item a {
+    text-decoration: none;
+    color: #007bff;
+}
