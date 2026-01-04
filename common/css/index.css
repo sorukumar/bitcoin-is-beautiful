@@ -49,6 +49,8 @@ header {
 
 #footer {
     margin-top: auto;
+    border-top: 1px solid rgba(247, 147, 26, 0.1);
+    background: linear-gradient(to bottom, var(--bg-primary, #FDFBF9) 0%, rgba(247, 147, 26, 0.02) 100%);
 }
 
 /* Hero Section */
